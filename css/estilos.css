@@ -1,0 +1,84 @@
+body {
+  font-family: "Asap", sans-serif;
+  background: black;
+}
+
+.btn {
+  padding: 23px 47px;
+  font-weight: bold;
+  border: 0;
+}
+
+.btn-primary {
+  background-color: #49b9e6;
+  border-color: #49b9e6;
+  color: #fff;
+}
+
+.logo {
+  align-items: center;
+  background: url(../img/logo-isotipo.png) no-repeat;
+  color: #fff;
+  display: flex;
+  font-size: 25px;
+  font-weight: bold;
+  height: 29px;
+  padding-left: 38px;
+  width: 160px;
+}
+
+.nav {
+  position: fixed;
+  height: 60px;
+  background-color: #02a6cc80;
+  z-index: 1000;
+}
+
+.bloque {
+  height: 100vh;
+}
+
+.medio-bloque {
+  height: 50vh;
+}
+
+.primer-bloque {
+  background: url(../img/bg.png) no-repeat center center / cover;
+  color: #fff;
+  position: relative;
+}
+.primer-bloque .title {
+  font-size: 55px;
+  font-weight: 600;
+  letter-spacing: 2.8px;
+}
+.primer-bloque .subtitle {
+  font-size: 18px;
+  letter-spacing: 0.9px;
+}
+.primer-bloque .smartphone {
+  z-index: 1;
+  position: relative;
+}
+
+.segundo-bloque {
+  background-color: #0084b8;
+}
+
+.tercer-bloque,
+.cuarto-bloque {
+  background-color: #fff;
+}
+
+.cuarto-bloque {
+}
+
+.bloque-foooter {
+  background-color: rgba(0, 132, 184, 0.5);
+  bottom: 0;
+  font-size: 15px;
+  height: 20%;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
